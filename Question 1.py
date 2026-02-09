@@ -33,6 +33,6 @@ for word in cleanWords:
 top10Words = sorted(wordCounts.items(), key = lambda item: item [1], reverse = True)[:10]
 
 for word, count in top10Words:
-    print(f" {word} = {count}")
+    print(f" {word} -> {count}")
 
 
