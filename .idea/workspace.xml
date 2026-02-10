@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adb2cd0d-534f-4188-9d20-9c33fdaea340" name="Changes" comment="Complete Question 1">
+    <list default="true" id="adb2cd0d-534f-4188-9d20-9c33fdaea340" name="Changes" comment="Complete question 4">
+      <change afterPath="$PROJECT_DIR$/Question 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Question 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/high_engagement.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Assignment 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Assignment 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Question 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question 1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question 2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="39BLiV3HQL6CVKohVgM1BK6chCy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,9 +44,13 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.Question 1.executor": "Run",
     "Python.Question 2.executor": "Run",
+    "Python.Question 3.executor": "Run",
+    "Python.Question 4.executor": "Run",
+    "Python.Question 5.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/caitl/PycharmProjects/Data221/Assignment 2"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -68,13 +77,31 @@
       <option name="project" value="LOCAL" />
       <updated>1770176061161</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Complete Question 2">
+      <option name="closed" value="true" />
+      <created>1770680123454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770680123454</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Complete question 4">
+      <option name="closed" value="true" />
+      <created>1770685745109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770685745109</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Complete Question 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Question 1" />
+    <MESSAGE value="Complete Question 2" />
+    <MESSAGE value="Complete question 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete question 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

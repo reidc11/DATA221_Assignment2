@@ -1,4 +1,4 @@
-# Caitlin Reid | 30245427
+# Data 221 Assignment 2 Caitlin Reid | 30245427
 # Question 1 (1 Point)
 # In this question, you will practice reading a text file and performing basic text preprocessing before computing word
 # statistics.
