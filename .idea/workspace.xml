@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adb2cd0d-534f-4188-9d20-9c33fdaea340" name="Changes" comment="Complete question 4">
-      <change afterPath="$PROJECT_DIR$/Question 3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Question 5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/high_engagement.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Assignment 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Assignment 2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="adb2cd0d-534f-4188-9d20-9c33fdaea340" name="Changes" comment="Complete question 6">
+      <change afterPath="$PROJECT_DIR$/Question 7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Question 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question 1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,8 @@
     "Python.Question 3.executor": "Run",
     "Python.Question 4.executor": "Run",
     "Python.Question 5.executor": "Run",
+    "Python.Question 6.executor": "Run",
+    "Python.Question 7.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -93,7 +90,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770685745109</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Complete question 5">
+      <option name="closed" value="true" />
+      <created>1770748227146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770748227146</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Complete question 6">
+      <option name="closed" value="true" />
+      <created>1770770839541</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770770839543</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -101,7 +114,9 @@
     <MESSAGE value="Complete Question 1" />
     <MESSAGE value="Complete Question 2" />
     <MESSAGE value="Complete question 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete question 4" />
+    <MESSAGE value="Complete question 5" />
+    <MESSAGE value="Complete question 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete question 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
