@@ -8,35 +8,53 @@
 # • Print the number of such sets.
 # • Print the first two sets you find, including line numbers and original lines.
 
-with open ('sample-file.txt', 'r') as file:
-    lines = file.readlines()
+import string
 
-seen = {}
+with open('sample-file.txt', 'r') as file:
+    lines = file.read().splitlines()
 
+
+line_groups = {}
 
 line_num = 1
 
 for line in lines:
-    normalized = ''.join(line.lower().split())
+
+    if line.strip() == "":
+        line_num += 1
+        continue
+
+    lower_line = line.lower()
+
+    normalized_line = ""
+    for character in lower_line:
+        if (character not in string.whitespace) and (character not in string.punctuation):
+            normalized_line += character
+
     original_line = line.strip()
 
-    if normalized in seen:
-        duplicates.append((seen[normalized], line_num))
+    if normalized_line in line_groups:
+        line_groups[normalized_line].append((line_num, original_line))
     else:
-        seen[normalized] = line_num
+        line_groups[normalized_line] = [(line_num, original_line)]
 
     line_num += 1
 
-num_sets = 0
+duplicate_sets = []
 
-for normalized_line in seen:
-    if seen[normalized_line] > 1:
-        num_sets += 1
+for key in line_groups:
+    if len(line_groups[key]) > 1:
+        duplicate_sets.append(line_groups[key])
 
-print(f'Number of duplicate sets: {num_sets}')
+print(f'Number of duplicate sets: {len(duplicate_sets)}')
 
-print('Set 1')
-print(f'Line{line_num}: {line_text}')
 
-print('Set 2')
-print(f'Line{line_num}: {line_text}')
+if len(duplicate_sets) >= 1:
+    print('\nSet 1')
+    for line_info in duplicate_sets[0]:
+        print(f'Line {line_info[0]}: {line_info[1]}')
+
+if len(duplicate_sets) >= 2:
+    print('\nSet 2')
+    for line_info in duplicate_sets[1]:
+        print(f'Line {line_info[0]}: {line_info[1]}')

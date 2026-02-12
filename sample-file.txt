@@ -26,9 +26,7 @@ Statistics and data analysis often go together when working on real-world data s
 Understanding probability and statistical thinking strengthens data science skills.
 
 Good data science projects involve data cleaning, data exploration, and clear communication of results. 
-Collaboration between domain experts and data science professionals often leads to better outcomes.
-
-As more data becomes available, the importance of data science continues to grow worldwide. 
+Collaboration between domain experts and data science professionals often leads to better outcomesAs more data becomes available, the importance of data science continues to grow worldwide.
 Ethical considerations are becoming increasingly important in modern data science practice.
 
 Data science is an exciting field that combines statistics computing and real world problem solving
