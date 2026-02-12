@@ -28,7 +28,6 @@ for i in range(len(student_dataframe)):
     else:
         student_dataframe.loc[i, 'grade_band'] = 'High'
 
-#create new summary table by grade band
 summary_table = (
     student_dataframe
         .groupby('grade_band')
@@ -39,13 +38,10 @@ summary_table = (
         )
 )
 
-# Convert internet proportion to percentage
 summary_table['percent_internet'] = summary_table['percent_internet'] * 100
 
-# Round data to two decimal points
 summary_table = summary_table.round(2)
 
-# Save to CSV
 summary_table.to_csv('summary_table_by_band.csv', index=True)
 
 print(summary_table)
